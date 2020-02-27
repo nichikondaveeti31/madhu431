@@ -1,0 +1,8 @@
+def isnum(n):
+    n=str(n)
+    if n.isdigit():
+        return True
+    return False
+li=["10","20","a"]
+a = map(isnum,li)
+list(a)
